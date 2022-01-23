@@ -1,0 +1,81 @@
+input {
+  max-width: 100%;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+h2 {
+  line-height: 58px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+ul {
+  margin: 10px 0 0 10px;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+.description {
+  font-size: 14px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.date {
+  font-size: 14px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.emoji {
+  line-height: 58px;
+}
+
+h3.forecast {
+  padding-top: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.weather-app {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 20px;
+  border-color: turquoise;
+  max-width: 650px;
+  margin: 80px auto 0;
+}
+
+.col-6 {
+  padding-top: 20px;
+}
+
+.unit {
+  position: absolute;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.col-2 {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#search {
+  margin-top: 15px;
+  margin-left: -30px;
+}
+
+#current-button {
+  margin-top: 15px;
+  margin-left: -30px;
+}
