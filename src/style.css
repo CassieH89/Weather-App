@@ -22,6 +22,10 @@ li {
   text-align: left;
 }
 
+body {
+  background-color: #bfdeff;
+}
+
 .description {
   font-size: 14px;
   text-align: left;
@@ -50,9 +54,10 @@ h3.forecast {
   border-style: solid;
   border-width: medium;
   border-radius: 20px;
-  border-color: turquoise;
-  max-width: 650px;
+  border-color: #fff;
+  max-width: 600px;
   margin: 80px auto 0;
+  background-color: #fff;
 }
 
 .col-6 {
