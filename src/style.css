@@ -5,6 +5,7 @@ input {
 h1 {
   text-align: left;
   margin-left: 10px;
+  margin-top: 20px;
 }
 
 h2 {
@@ -14,7 +15,7 @@ h2 {
 }
 
 ul {
-  margin: 10px 0 0 10px;
+  margin: 30px 0 0 10px;
 }
 
 li {
@@ -58,10 +59,11 @@ h3.forecast {
   max-width: 600px;
   margin: 80px auto 0;
   background-color: #fff;
+  padding: 10px;
 }
 
-.col-6 {
-  padding-top: 20px;
+.col-9 {
+  margin-top: 15px;
 }
 
 .unit {
@@ -76,11 +78,6 @@ h3.forecast {
 }
 
 #search {
-  margin-top: 15px;
-  margin-left: -30px;
-}
-
-#current-button {
   margin-top: 15px;
   margin-left: -30px;
 }
