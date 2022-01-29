@@ -25,6 +25,7 @@
                   <input
                     type="search"
                     placeholder="Enter a city"
+                    autocomplete="off"
                     class="form-control"
                     id="city-input"
                   />
@@ -40,27 +41,37 @@
               </div>
             </div>
           </form>
-          <div class="row">
+          <div class="row" id="top">
             <div class="col-6">
               <h1 id="header">Columbus</h1>
-              <h3 class="date" id="time"></h3>
-              <h3 class="description" id="description">Windy</h3>
-              <h2 id="h2">
-                <span class="emoji">⛅</span>
-                <span class="degree" id="degree">20</span
-                ><span id="unit">°F</span>
-              </h2>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>
-                  Temperature <span id="max">40°</span>/<span id="min"
-                    >32°</span
-                  >
-                </li>
-                <li>Humidity: <span id="humidity">5%</span></li>
-                <li>Wind: <span id="wind">4mph</span></li>
-              </ul>
+            <div class="col-6" id="day">
+              <span class="date" id="time"></span>
+              <span class="description" id="description"> Sunny</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6">
+                  <h2 id="h2">
+                    <span class="emoji">⛅</span>
+                    <span class="degree" id="degree">20</span
+                    ><span id="unit">°F</span>
+                  </h2>
+                </div>
+                <div class="col-6">
+                  <ul>
+                    <li>
+                      Temperature: <span id="max">40°</span>/<span id="min"
+                        >32°</span
+                      >
+                    </li>
+                    <li>Humidity: <span id="humidity">5%</span></li>
+                    <li>Wind: <span id="wind">4mph</span></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
 

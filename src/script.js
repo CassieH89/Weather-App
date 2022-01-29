@@ -23,8 +23,8 @@ function formatDate(date) {
 }
 
 let current = new Date();
-let h3 = document.querySelector("h3");
-h3.innerHTML = formatDate(current);
+let time = document.querySelector("#time");
+time.innerHTML = formatDate(current);
 
 function showTemperature(response) {
   console.log(response);
@@ -65,14 +65,6 @@ function searchLocation(position) {
 
   axios.get(apiUrl).then(showTemperature);
 }
-
-function getCurrentLocation(event) {
-  event.preventDefault();
-  navigator.geolocation.getCurrentPosition(searchLocation);
-}
-
-let currentLocation = document.querySelector("#current-button");
-currentLocation.addEventListener("click", getCurrentLocation);
 
 let form = document.querySelector("#weather-form");
 form.addEventListener("submit", city);

@@ -1,3 +1,7 @@
+body {
+  background-color: #42bbd9;
+}
+
 input {
   max-width: 100%;
 }
@@ -12,10 +16,12 @@ h2 {
   line-height: 58px;
   text-align: left;
   margin-left: 10px;
+  font-size: 40px;
 }
 
 ul {
   margin: 30px 0 0 10px;
+  font-size: 14px;
 }
 
 li {
@@ -23,20 +29,25 @@ li {
   text-align: left;
 }
 
-body {
-  background-color: #bfdeff;
-}
-
 .description {
   font-size: 14px;
-  text-align: left;
-  padding-left: 10px;
+  font-style: italic;
 }
 
 .date {
   font-size: 14px;
   text-align: left;
-  padding-left: 10px;
+}
+
+.card {
+  border-style: solid;
+  border-radius: 10px;
+  background: linear-gradient(
+    109.5deg,
+    rgb(13, 11, 136) 9.4%,
+    rgb(86, 255, 248) 78.4%
+  );
+  color: #fff;
 }
 
 .emoji {
@@ -77,7 +88,13 @@ h3.forecast {
   padding-bottom: 20px;
 }
 
+#day {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
 #search {
   margin-top: 15px;
   margin-left: -30px;
+  background-color: #2968b3;
 }
