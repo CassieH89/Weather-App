@@ -39,13 +39,6 @@ function showTemperature(response) {
   document.querySelector("#description").innerHTML =
     response.data.weather[0].description;
 
-  document.querySelector("#max").innerHTML = Math.round(
-    response.data.main.temp_max
-  );
-  document.querySelector("#min").innerHTML = Math.round(
-    response.data.main.temp_min
-  );
-
   celsiusTemperature = response.data.main.temp;
 
   let iconElement = document.querySelector("#icon");
