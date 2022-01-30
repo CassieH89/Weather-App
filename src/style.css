@@ -95,6 +95,23 @@ h3.forecast {
   text-decoration: none;
 }
 
+.weather-forecast {
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.7;
+}
+
+.weather-forecast-temperatures {
+  font-size: 14px;
+}
+
 #unit {
   position: absolute;
   font-size: 14px;
