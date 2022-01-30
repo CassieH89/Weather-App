@@ -19,6 +19,10 @@ h2 {
   font-size: 40px;
 }
 
+a {
+  color: #56fff8;
+}
+
 ul {
   margin: 10px 0 10px 10px;
   font-size: 14px;
@@ -80,6 +84,15 @@ h3.forecast {
 .col-2 {
   margin: 0 auto;
   padding-bottom: 20px;
+}
+
+.active {
+  color: #fff;
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
 }
 
 #unit {
