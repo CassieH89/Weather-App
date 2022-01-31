@@ -96,6 +96,7 @@ h3.forecast {
 }
 
 .weather-forecast {
+  margin: 30px auto;
   color: #000;
 }
 
