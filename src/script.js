@@ -106,11 +106,18 @@ function showTemperature(response) {
 function city(event) {
   event.preventDefault();
   let city = document.querySelector("#city-input").value;
+
+  searchCity(city);
+}
+
+function searchCity(city) {
   let apiKey = "6a2828f340f1691ab1ce862958f73f9c";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 
   axios.get(apiUrl).then(showTemperature);
 }
+
+searchCity("Columbus");
 
 function searchLocation(position) {
   let lat = position.coords.latitude;

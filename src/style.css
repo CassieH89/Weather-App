@@ -24,7 +24,7 @@ a {
 }
 
 ul {
-  margin: 10px 0 10px 10px;
+  margin: 40px 0 10px 10px;
   font-size: 14px;
 }
 
@@ -33,10 +33,19 @@ li {
   text-align: left;
 }
 
-.description {
-  font-size: 14px;
-  font-style: italic;
-  margin-right: 20px;
+.container {
+  text-align: center;
+}
+
+.weather-app {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 20px;
+  border-color: #fff;
+  max-width: 600px;
+  margin: 80px auto 0;
+  background-color: #fff;
+  padding: 10px;
 }
 
 .date {
@@ -58,23 +67,10 @@ li {
   max-width: 95%;
 }
 
-h3.forecast {
-  padding-top: 20px;
-}
-
-.container {
-  text-align: center;
-}
-
-.weather-app {
-  border-style: solid;
-  border-width: medium;
-  border-radius: 20px;
-  border-color: #fff;
-  max-width: 600px;
-  margin: 80px auto 0;
-  background-color: #fff;
-  padding: 10px;
+.description {
+  font-size: 14px;
+  font-style: italic;
+  margin-right: 20px;
 }
 
 .col-9 {
@@ -84,15 +80,6 @@ h3.forecast {
 .col-2 {
   margin: 0 auto;
   padding-bottom: 20px;
-}
-
-.active {
-  color: #fff;
-  cursor: default;
-}
-
-.active:hover {
-  text-decoration: none;
 }
 
 .weather-forecast {
@@ -116,7 +103,7 @@ h3.forecast {
 #unit {
   position: absolute;
   font-size: 14px;
-  margin-top: -5px;
+  margin-top: 8px;
 }
 
 #day {
